@@ -1,0 +1,40 @@
+Rust build artifacts
+
+/escrow_program/target/
+/escrow_program/**/target/
+
+Ignore Cargo.lock in library crate
+
+/escrow_program/Cargo.lock
+
+BPF/Shared object artifacts
+
+**/*.so
+
+Node.js dependencies and lockfiles
+
+/node_modules/
+yarn-error.log
+npm-debug.log
+package-lock.json
+yarn.lock
+
+Frontend build directories (e.g., Next.js, Framer)
+
+/.next/
+/out/
+/dist/
+
+Environment variables
+
+.env
+
+IDE and editor settings
+
+.vscode/
+.idea/
+
+macOS
+
+.DS_Store
+
